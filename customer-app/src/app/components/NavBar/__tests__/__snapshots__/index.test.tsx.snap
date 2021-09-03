@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> should match snapshot 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  position="fixed"
+>
+  <WithStyles(ForwardRef(Toolbar))
+    className="makeStyles-toolbar-1"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className="makeStyles-logoLg-2"
+      variant="h6"
+    >
+      Blocommerce Customer
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Typography))
+      className="makeStyles-logoSm-3"
+      variant="h6"
+    >
+      Blocommerce
+    </WithStyles(ForwardRef(Typography))>
+    <div
+      className="makeStyles-search-4 makeStyles-search-10"
+    >
+      <Memo />
+      <WithStyles(ForwardRef(InputBase))
+        className="makeStyles-input-5"
+        placeholder="Search..."
+      />
+      <Memo
+        className="makeStyles-cancel-6"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="makeStyles-icons-8 makeStyles-icons-11"
+    >
+      <Memo
+        className="makeStyles-searchButton-7"
+        onClick={[Function]}
+      />
+      <WithStyles(ForwardRef(Badge))
+        badgeContent={4}
+        className="makeStyles-badge-9"
+        color="secondary"
+      >
+        <Memo />
+      </WithStyles(ForwardRef(Badge))>
+      <WithStyles(ForwardRef(Badge))
+        badgeContent={2}
+        className="makeStyles-badge-9"
+        color="secondary"
+      >
+        <Memo />
+      </WithStyles(ForwardRef(Badge))>
+      <WithStyles(ForwardRef(Avatar))
+        alt="Remy Sharp"
+        src="https://images.pexels.com/photos/8647814/pexels-photo-8647814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+      />
+    </div>
+  </WithStyles(ForwardRef(Toolbar))>
+</WithStyles(ForwardRef(AppBar))>
+`;
