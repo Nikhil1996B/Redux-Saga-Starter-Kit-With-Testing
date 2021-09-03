@@ -27,12 +27,16 @@ open terminal in ~customer-app/src/directory
 run yarn install to install packages
 run yarn run build to build source code
 
+
 ##Run unit test cases
 run yarn install
 run yarn test
 run npm run test -- --coverage --watchAll=false
 ##Source code directory structure Note: This directory structure may not be found in current source This is placed here to make open for discussion so we can ammend the changes and implement the same
 
+
+
+```
 src
 |--API //An API for all business logic, validation logic etc can go in isolated from framework
 |--Components
@@ -44,8 +48,11 @@ src
 |  |--selectors
 .  .....
 ....
-##Page Composition
+```
 
+
+##Page Composition
+```
 +-----------------------------------------------+
 |                                               |
 |        PAGE / An Instance of application      |
@@ -74,6 +81,8 @@ src
 | +-------------------------------------------+ |
 |                                               |
 +-----------------------------------------------+
+```
+
 ##Unit testing ###Libraries for unit testing
 
 jest
